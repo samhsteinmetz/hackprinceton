@@ -1,0 +1,329 @@
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+ERROR:root:Error in scrape_all_sites: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+0   chromedriver                        0x00000001008795dc cxxbridge1$str$ptr + 3653648
+1   chromedriver                        0x0000000100871e3c cxxbridge1$str$ptr + 3623024
+2   chromedriver                        0x00000001002dc100 cxxbridge1$string$len + 88404
+3   chromedriver                        0x00000001002d5514 cxxbridge1$string$len + 60776
+4   chromedriver                        0x00000001002c7920 cxxbridge1$string$len + 4468
+5   chromedriver                        0x00000001002c9300 cxxbridge1$string$len + 11092
+6   chromedriver                        0x00000001002c7ccc cxxbridge1$string$len + 5408
+7   chromedriver                        0x00000001002c7548 cxxbridge1$string$len + 3484
+8   chromedriver                        0x00000001002c7494 cxxbridge1$string$len + 3304
+9   chromedriver                        0x00000001002c5844 core::str::slice_error_fail::h1cab30ac4b13c655 + 60316
+10  chromedriver                        0x00000001002c5dd8 core::str::slice_error_fail::h1cab30ac4b13c655 + 61744
+11  chromedriver                        0x00000001002de5c0 cxxbridge1$string$len + 97812
+12  chromedriver                        0x0000000100358550 cxxbridge1$string$len + 597412
+13  chromedriver                        0x0000000100357ba8 cxxbridge1$string$len + 594940
+14  chromedriver                        0x00000001003130fc cxxbridge1$string$len + 313680
+15  chromedriver                        0x0000000100313d4c cxxbridge1$string$len + 316832
+16  chromedriver                        0x000000010084464c cxxbridge1$str$ptr + 3436672
+17  chromedriver                        0x0000000100847988 cxxbridge1$str$ptr + 3449788
+18  chromedriver                        0x000000010082ba5c cxxbridge1$str$ptr + 3335312
+19  chromedriver                        0x000000010084824c cxxbridge1$str$ptr + 3452032
+20  chromedriver                        0x000000010081cce8 cxxbridge1$str$ptr + 3274524
+21  chromedriver                        0x00000001008629dc cxxbridge1$str$ptr + 3560464
+22  chromedriver                        0x0000000100862b58 cxxbridge1$str$ptr + 3560844
+23  chromedriver                        0x0000000100871ad4 cxxbridge1$str$ptr + 3622152
+24  libsystem_pthread.dylib             0x000000018df55f94 _pthread_start + 136
+25  libsystem_pthread.dylib             0x000000018df50d34 thread_start + 8
+
+INFO:root:Scraping all sites
+ERROR:root:Error in scrape_all_sites: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+0   chromedriver                        0x000000010122d5dc cxxbridge1$str$ptr + 3653648
+1   chromedriver                        0x0000000101225e3c cxxbridge1$str$ptr + 3623024
+2   chromedriver                        0x0000000100c90100 cxxbridge1$string$len + 88404
+3   chromedriver                        0x0000000100c89514 cxxbridge1$string$len + 60776
+4   chromedriver                        0x0000000100c7b920 cxxbridge1$string$len + 4468
+5   chromedriver                        0x0000000100c7d300 cxxbridge1$string$len + 11092
+6   chromedriver                        0x0000000100c7bccc cxxbridge1$string$len + 5408
+7   chromedriver                        0x0000000100c7b548 cxxbridge1$string$len + 3484
+8   chromedriver                        0x0000000100c7b494 cxxbridge1$string$len + 3304
+9   chromedriver                        0x0000000100c79844 core::str::slice_error_fail::h1cab30ac4b13c655 + 60316
+10  chromedriver                        0x0000000100c79dd8 core::str::slice_error_fail::h1cab30ac4b13c655 + 61744
+11  chromedriver                        0x0000000100c925c0 cxxbridge1$string$len + 97812
+12  chromedriver                        0x0000000100d0c550 cxxbridge1$string$len + 597412
+13  chromedriver                        0x0000000100d0bba8 cxxbridge1$string$len + 594940
+14  chromedriver                        0x0000000100cc70fc cxxbridge1$string$len + 313680
+15  chromedriver                        0x0000000100cc7d4c cxxbridge1$string$len + 316832
+16  chromedriver                        0x00000001011f864c cxxbridge1$str$ptr + 3436672
+17  chromedriver                        0x00000001011fb988 cxxbridge1$str$ptr + 3449788
+18  chromedriver                        0x00000001011dfa5c cxxbridge1$str$ptr + 3335312
+19  chromedriver                        0x00000001011fc24c cxxbridge1$str$ptr + 3452032
+20  chromedriver                        0x00000001011d0ce8 cxxbridge1$str$ptr + 3274524
+21  chromedriver                        0x00000001012169dc cxxbridge1$str$ptr + 3560464
+22  chromedriver                        0x0000000101216b58 cxxbridge1$str$ptr + 3560844
+23  chromedriver                        0x0000000101225ad4 cxxbridge1$str$ptr + 3622152
+24  libsystem_pthread.dylib             0x000000018df55f94 _pthread_start + 136
+25  libsystem_pthread.dylib             0x000000018df50d34 thread_start + 8
+
+INFO:root:Scraping all sites
+ERROR:root:Error in scrape_all_sites: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+0   chromedriver                        0x00000001031a95dc cxxbridge1$str$ptr + 3653648
+1   chromedriver                        0x00000001031a1e3c cxxbridge1$str$ptr + 3623024
+2   chromedriver                        0x0000000102c0c100 cxxbridge1$string$len + 88404
+3   chromedriver                        0x0000000102c05514 cxxbridge1$string$len + 60776
+4   chromedriver                        0x0000000102bf7920 cxxbridge1$string$len + 4468
+5   chromedriver                        0x0000000102bf9300 cxxbridge1$string$len + 11092
+6   chromedriver                        0x0000000102bf7ccc cxxbridge1$string$len + 5408
+7   chromedriver                        0x0000000102bf7548 cxxbridge1$string$len + 3484
+8   chromedriver                        0x0000000102bf7494 cxxbridge1$string$len + 3304
+9   chromedriver                        0x0000000102bf5844 core::str::slice_error_fail::h1cab30ac4b13c655 + 60316
+10  chromedriver                        0x0000000102bf5dd8 core::str::slice_error_fail::h1cab30ac4b13c655 + 61744
+11  chromedriver                        0x0000000102c0e5c0 cxxbridge1$string$len + 97812
+12  chromedriver                        0x0000000102c88550 cxxbridge1$string$len + 597412
+13  chromedriver                        0x0000000102c87ba8 cxxbridge1$string$len + 594940
+14  chromedriver                        0x0000000102c430fc cxxbridge1$string$len + 313680
+15  chromedriver                        0x0000000102c43d4c cxxbridge1$string$len + 316832
+16  chromedriver                        0x000000010317464c cxxbridge1$str$ptr + 3436672
+17  chromedriver                        0x0000000103177988 cxxbridge1$str$ptr + 3449788
+18  chromedriver                        0x000000010315ba5c cxxbridge1$str$ptr + 3335312
+19  chromedriver                        0x000000010317824c cxxbridge1$str$ptr + 3452032
+20  chromedriver                        0x000000010314cce8 cxxbridge1$str$ptr + 3274524
+21  chromedriver                        0x00000001031929dc cxxbridge1$str$ptr + 3560464
+22  chromedriver                        0x0000000103192b58 cxxbridge1$str$ptr + 3560844
+23  chromedriver                        0x00000001031a1ad4 cxxbridge1$str$ptr + 3622152
+24  libsystem_pthread.dylib             0x000000018df55f94 _pthread_start + 136
+25  libsystem_pthread.dylib             0x000000018df50d34 thread_start + 8
+
+INFO:root:Scraping all sites
+ERROR:root:Error in scrape_all_sites: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+0   chromedriver                        0x0000000104e315dc cxxbridge1$str$ptr + 3653648
+1   chromedriver                        0x0000000104e29e3c cxxbridge1$str$ptr + 3623024
+2   chromedriver                        0x0000000104894100 cxxbridge1$string$len + 88404
+3   chromedriver                        0x000000010488d514 cxxbridge1$string$len + 60776
+4   chromedriver                        0x000000010487f920 cxxbridge1$string$len + 4468
+5   chromedriver                        0x0000000104881300 cxxbridge1$string$len + 11092
+6   chromedriver                        0x000000010487fccc cxxbridge1$string$len + 5408
+7   chromedriver                        0x000000010487f548 cxxbridge1$string$len + 3484
+8   chromedriver                        0x000000010487f494 cxxbridge1$string$len + 3304
+9   chromedriver                        0x000000010487d844 core::str::slice_error_fail::h1cab30ac4b13c655 + 60316
+10  chromedriver                        0x000000010487ddd8 core::str::slice_error_fail::h1cab30ac4b13c655 + 61744
+11  chromedriver                        0x00000001048965c0 cxxbridge1$string$len + 97812
+12  chromedriver                        0x0000000104910550 cxxbridge1$string$len + 597412
+13  chromedriver                        0x000000010490fba8 cxxbridge1$string$len + 594940
+14  chromedriver                        0x00000001048cb0fc cxxbridge1$string$len + 313680
+15  chromedriver                        0x00000001048cbd4c cxxbridge1$string$len + 316832
+16  chromedriver                        0x0000000104dfc64c cxxbridge1$str$ptr + 3436672
+17  chromedriver                        0x0000000104dff988 cxxbridge1$str$ptr + 3449788
+18  chromedriver                        0x0000000104de3a5c cxxbridge1$str$ptr + 3335312
+19  chromedriver                        0x0000000104e0024c cxxbridge1$str$ptr + 3452032
+20  chromedriver                        0x0000000104dd4ce8 cxxbridge1$str$ptr + 3274524
+21  chromedriver                        0x0000000104e1a9dc cxxbridge1$str$ptr + 3560464
+22  chromedriver                        0x0000000104e1ab58 cxxbridge1$str$ptr + 3560844
+23  chromedriver                        0x0000000104e29ad4 cxxbridge1$str$ptr + 3622152
+24  libsystem_pthread.dylib             0x000000018df55f94 _pthread_start + 136
+25  libsystem_pthread.dylib             0x000000018df50d34 thread_start + 8
+
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9d85e2670>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6ce28093f45b66515dec419e203b2768
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9d85e27c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6ce28093f45b66515dec419e203b2768
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9d85e2940>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/6ce28093f45b66515dec419e203b2768
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+INFO:root:Scraping all sites
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd8b855ccd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e283cf948f1c65bd9ce0ac1ccb614e62
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd8b85700a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e283cf948f1c65bd9ce0ac1ccb614e62
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd8b85701f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e283cf948f1c65bd9ce0ac1ccb614e62
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe90867e670>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f73701a41d7334f15846de88ef0caf48
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe90867e7c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f73701a41d7334f15846de88ef0caf48
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe90867e940>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f73701a41d7334f15846de88ef0caf48
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+INFO:root:Scraping https://techcrunch.com/
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraping all sites
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb810612790>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/cbe04c0fcb7163a8c65e7106232fae30
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb8106129d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/cbe04c0fcb7163a8c65e7106232fae30
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb810612b50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/cbe04c0fcb7163a8c65e7106232fae30
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=63925): Read timed out. (read timeout=120)
+INFO:root:Scraping all sites
+INFO:root:Scraping https://techcrunch.com/
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraping all sites
+INFO:root:Scraping https://techcrunch.com/
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraping all sites
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=64673): Read timed out. (read timeout=120)
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+INFO:root:Scraping https://techcrunch.com/
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+INFO:root:Scraping all sites
+INFO:root:Scraping all sites
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Starting scraper
+INFO:root:Scraping all sites
+INFO:root:Scraping https://techcrunch.com/
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraping all sites
+INFO:root:Scraping https://techcrunch.com/
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraping all sites
+INFO:root:Scraping https://techcrunch.com/
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraping all sites
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbff80d8460>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9c82b4bc6e9e81d3139316b16d93b974
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbff80d8430>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9c82b4bc6e9e81d3139316b16d93b974
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbff80d88e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9c82b4bc6e9e81d3139316b16d93b974
+INFO:root:Starting scraper
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f77d84d9880>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4427bdc2f4334e45c4895336ca31bec6
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f77d84d9a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4427bdc2f4334e45c4895336ca31bec6
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f77d84d9be0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4427bdc2f4334e45c4895336ca31bec6
+INFO:root:Starting scraper
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+INFO:root:waiting for next job...
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa7e07d28e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9921b17b17d24727503b0348bb1992cd
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa7e07d2ac0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9921b17b17d24727503b0348bb1992cd
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa7e07d2bb0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/9921b17b17d24727503b0348bb1992cd
+INFO:root:Starting scraper
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff200671580>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/284e1d1fd5bece7f7c111c66122a4398
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff200671760>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/284e1d1fd5bece7f7c111c66122a4398
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2006718e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/284e1d1fd5bece7f7c111c66122a4398
+INFO:root:Starting scraper
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcdd01549d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a8a97855b20b902e09987a42e9e9364a
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcdd0154bb0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a8a97855b20b902e09987a42e9e9364a
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcdd0154ca0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/a8a97855b20b902e09987a42e9e9364a
+INFO:root:Starting scraper
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdcc84359d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/16fc6b019bcab0f8a209d019add136c5
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdcc8435fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/16fc6b019bcab0f8a209d019add136c5
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdcc8416400>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/16fc6b019bcab0f8a209d019add136c5
+INFO:root:Starting scraper
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraped quote: “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0a8422760>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a03ed238d8ef9fd5dfc13f8c105c5d9/element
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0a850c820>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a03ed238d8ef9fd5dfc13f8c105c5d9/element
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0a850ca00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a03ed238d8ef9fd5dfc13f8c105c5d9/element
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0a8422b50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a03ed238d8ef9fd5dfc13f8c105c5d9
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0a850ceb0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a03ed238d8ef9fd5dfc13f8c105c5d9
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe0783ca0a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/1a03ed238d8ef9fd5dfc13f8c105c5d9
+INFO:root:Starting scraper
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+INFO:root:Committed data to database
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+INFO:root:Committed data to database
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO:root:Scraping http://quotes.toscrape.com/
+INFO:root:Scraped quote: “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
+ERROR:root:Error in scrape_all_sites: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104fc55dc cxxbridge1$str$ptr + 3653648
+1   chromedriver                        0x0000000104fbde3c cxxbridge1$str$ptr + 3623024
+2   chromedriver                        0x0000000104a28100 cxxbridge1$string$len + 88404
+3   chromedriver                        0x0000000104a6a41c cxxbridge1$string$len + 359536
+4   chromedriver                        0x0000000104aa3ba8 cxxbridge1$string$len + 594940
+5   chromedriver                        0x0000000104a5f0fc cxxbridge1$string$len + 313680
+6   chromedriver                        0x0000000104a5fd4c cxxbridge1$string$len + 316832
+7   chromedriver                        0x0000000104f9064c cxxbridge1$str$ptr + 3436672
+8   chromedriver                        0x0000000104f93988 cxxbridge1$str$ptr + 3449788
+9   chromedriver                        0x0000000104f77a5c cxxbridge1$str$ptr + 3335312
+10  chromedriver                        0x0000000104f9424c cxxbridge1$str$ptr + 3452032
+11  chromedriver                        0x0000000104f68ce8 cxxbridge1$str$ptr + 3274524
+12  chromedriver                        0x0000000104fae9dc cxxbridge1$str$ptr + 3560464
+13  chromedriver                        0x0000000104faeb58 cxxbridge1$str$ptr + 3560844
+14  chromedriver                        0x0000000104fbdad4 cxxbridge1$str$ptr + 3622152
+15  libsystem_pthread.dylib             0x000000018df55f94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018df50d34 thread_start + 8
+
+ERROR:root:Error in scrape_all_sites: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 8601727552 and this is thread id 12950683648.
+INFO:root:Committed data to database
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+INFO:root:Committed data to database
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+ERROR:root:Error in scrape_all_sites: HTTPConnectionPool(host='localhost', port=50937): Read timed out. (read timeout=120)
+INFO:root:Committed data to database
+INFO:root:Scraping all sites concurrently
+WARNING:urllib3.connectionpool:Connection pool is full, discarding connection: localhost. Connection pool size: 1
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd1884cc700>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/43f5438435f95ff60741c37c9701b8bf
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd14801fd30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/43f5438435f95ff60741c37c9701b8bf
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd14801ff40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/43f5438435f95ff60741c37c9701b8bf

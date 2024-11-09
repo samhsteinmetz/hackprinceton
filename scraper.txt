@@ -1,0 +1,98 @@
+import time
+import schedule
+import asyncio
+from selenium import webdriver
+from bs4 import BeautifulSoup
+from datetime import datetime
+import sqlite3
+import logging
+
+# Setup logging
+logging.basicConfig(filename="scraper.log", level=logging.INFO)
+
+# Database setup
+conn = sqlite3.connect("scraped_data.db")
+cursor = conn.cursor()
+cursor.execute('''CREATE TABLE IF NOT EXISTS news
+                  (timestamp TEXT, website TEXT, headline TEXT, link TEXT)''')
+conn.commit()
+
+# Setup Chrome driver with options
+def create_driver():
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.chrome.options import Options
+
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    service = Service('/Users/samstein/hackprinceton/webdrivers/chromedriver')  # Adjust path as needed
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    driver.set_page_load_timeout(180)
+    return driver
+
+# Scraping function for Website 1
+def scrape_site1(driver):
+    url = "https://techcrunch.com/"
+    driver.get(url)
+    time.sleep(2)
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    logging.info(f"Scraping {url}")
+
+    # Example extraction (adjust selectors to target the actual structure)
+    for article in soup.find_all("div", class_="article"):
+        headline = article.find("h2").get_text(strip=True)
+        logging.info(f"Scraped headline: {headline}")
+        link = article.find("a")["href"]
+        logging.info(f"Scraped link: {link}")
+        save_data("Site 1", headline, link)
+
+# Scraping function for Website 2
+def scrape_site2(driver):
+    url = "http://quotes.toscrape.com/"
+    driver.get(url)
+    time.sleep(2)
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    logging.info(f"Scraping {url}")
+
+    for article in soup.find_all("div", class_="news-item"):
+        headline = article.find("h3").get_text(strip=True)
+        logging.info(f"Scraped headline: {headline}")
+        link = article.find("a")["href"]
+        logging.info(f"Scraped link: {link}")
+        save_data("Site 2", headline, link)
+
+# Save data to SQLite
+def save_data(website, headline, link):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    cursor.execute("INSERT INTO news (timestamp, website, headline, link) VALUES (?, ?, ?, ?)",
+                   (timestamp, website, headline, link))
+    conn.commit()
+    logging.info(f"Saved data from {website}: {headline}")
+
+# Master function to scrape all sites
+def scrape_all_sites():
+    driver = create_driver()
+    logging.info("Scraping all sites")
+    print("Scraping all sites")
+    try:
+        scrape_site1(driver)
+        scrape_site2(driver)
+        # Add more sites as needed
+    except Exception as e:
+        logging.error(f"Error in scrape_all_sites: {e}")
+    finally:
+        driver.quit()
+
+# Schedule scraping every 10 minutes
+schedule.every(10).seconds.do(scrape_all_sites)
+
+# Run scheduled tasks
+if __name__ == "__main__":
+    logging.info("Starting scraper")
+    print("Starting scraper")
+    while True:
+        schedule.run_pending()
+        print("Waiting for next run...")
+        time.sleep(1)
