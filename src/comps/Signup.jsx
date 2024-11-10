@@ -3,6 +3,7 @@ import { auth, db } from "../config/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import { useNavigate, Link } from "react-router-dom";
+import { set } from "react-hook-form";
 
 export default function Signup() {
 	const [email, setEmail] = useState("");
@@ -10,6 +11,7 @@ export default function Signup() {
 	const [role, setRole] = useState("renter"); // Default role
 	const [error, setError] = useState("");
 	const [loading, setLoading] = useState(false);
+	const [name, setName] = useState("");
 	const navigate = useNavigate();
 
 	const handleSubmit = async (e) => {
@@ -31,6 +33,8 @@ export default function Signup() {
 					email,
 					role,
 					createdAt: new Date().toISOString(),
+					liked: [],
+					name: name,
 				});
 
 				console.log("Successfully signed up!");
@@ -62,6 +66,7 @@ export default function Signup() {
 		}
 
 		setLoading(false);
+		setPassword("");
 	};
 
 	return (
@@ -79,6 +84,21 @@ export default function Signup() {
 
 				<form onSubmit={handleSubmit} className="mt-8 space-y-6">
 					<div className="rounded-md shadow-sm space-y-4">
+						<div>
+							<label htmlFor="name" className="sr-only">
+								Password
+							</label>
+							<input
+								id="name"
+								name="name"
+								type="text"
+								required
+								className="appearance-none rounded relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+								placeholder="Your Name Here"
+								value={name}
+								onChange={(e) => setName(e.target.value)}
+							/>
+						</div>
 						<div>
 							<label htmlFor="email" className="sr-only">
 								Email address

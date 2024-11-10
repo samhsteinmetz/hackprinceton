@@ -1,9 +1,12 @@
 // src/components/Navigation/NavTabs.jsx
 import { useState } from "react";
 import { Home, Car, Heart, Bell, User } from "lucide-react";
+import { useAuth } from "../contexts/AuthContext";
+import UserTitle from "/Users/samstein/hackprinceton/src/comps/UserTitle/UserTitle.jsx";
 
 const NavTabs = () => {
 	const [activeTab, setActiveTab] = useState("home");
+	const userId = useAuth().user?.uid;
 
 	const tabs = [
 		{ id: "home", name: "Home", icon: Home },
@@ -44,6 +47,11 @@ const NavTabs = () => {
 							})}
 						</div>
 					</div>
+
+					
+					<UserTitle userId={userId} />
+					
+
 				</div>
 			</div>
 		</div>
