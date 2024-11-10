@@ -5,6 +5,7 @@ import Signup from "./comps/Signup";
 import Dashboard from "./comps/Dashboard";
 import ProtectedRoute from "./comps/ProtectedRoute";
 import EventsDashboard from "./comps/EventsDashboard";
+import OwnerDashboard from "./comps/OwnerDashboard";
 
 function App() {
 	return (
@@ -39,6 +40,8 @@ function App() {
 					/>
 
 					<Route path="/eventsdashboard" element={<EventsDashboard/>} />
+
+					<Route path="/ownerdashboard" element={<OwnerDashboard />} />
 				</Routes>
 			</AuthProvider>
 		</Router>
