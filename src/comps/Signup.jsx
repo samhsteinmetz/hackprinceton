@@ -3,7 +3,6 @@ import { auth, db } from "../config/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import { useNavigate, Link } from "react-router-dom";
-import { set } from "react-hook-form";
 
 export default function Signup() {
 	const [email, setEmail] = useState("");
