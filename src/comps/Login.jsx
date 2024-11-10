@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { auth } from "../config/firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Login() {
 	const [email, setEmail] = useState("");
@@ -32,7 +32,7 @@ export default function Login() {
 			<div className="max-w-md w-full space-y-8">
 				<div>
 					<h2 className="mt-6 text-center text-3xl font-bold text-gray-900">
-						Sign in to your account
+						Log in to your account
 					</h2>
 				</div>
 
@@ -86,12 +86,12 @@ export default function Login() {
 					<div className="text-center mt-4">
 						<p className="text-sm text-gray-600">
 							Don&apos;t have an account?{" "}
-							<a
-								href="/signup"
+							<Link
+								to="/Signup"
 								className="font-medium text-blue-600 hover:text-blue-500"
 							>
 								Sign up here
-							</a>
+							</Link>
 						</p>
 					</div>
 				</form>

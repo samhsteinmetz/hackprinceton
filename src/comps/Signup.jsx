@@ -2,7 +2,7 @@ import { useState } from "react";
 import { auth, db } from "../config/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Signup() {
 	const [email, setEmail] = useState("");
@@ -34,7 +34,6 @@ export default function Signup() {
 				});
 
 				console.log("Successfully signed up!");
-				// After successful signup, navigate to login page
 				navigate("/login");
 			} catch {
 				// If Firestore write fails, delete the auth user
@@ -139,12 +138,12 @@ export default function Signup() {
 					<div className="text-center mt-4">
 						<p className="text-sm text-gray-600">
 							Already have an account?{" "}
-							<a
-								href="/login"
+							<Link
+								to="/login"
 								className="font-medium text-blue-600 hover:text-blue-500"
 							>
-								Log in
-							</a>
+								Log in here
+							</Link>
 						</p>
 					</div>
 				</form>
