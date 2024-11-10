@@ -4,6 +4,7 @@ import Login from "./comps/Login";
 import Signup from "./comps/Signup";
 import Dashboard from "./comps/Dashboard";
 import ProtectedRoute from "./comps/ProtectedRoute";
+import EventsDashboard from "./comps/EventsDashboard";
 
 function App() {
 	return (
@@ -36,6 +37,8 @@ function App() {
 							</ProtectedRoute>
 						}
 					/>
+
+					<Route path="/eventsdashboard" element={<EventsDashboard/>} />
 				</Routes>
 			</AuthProvider>
 		</Router>

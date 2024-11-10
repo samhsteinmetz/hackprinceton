@@ -1,6 +1,7 @@
 import { useAuth } from "../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../config/firebase";
+import EventsButton from "./EventsButton";
 
 export default function OwnerDashboard() {
 	const { user } = useAuth();
@@ -22,12 +23,14 @@ export default function OwnerDashboard() {
 					<h1 className="text-3xl font-bold text-gray-900">
 						Manage Your Parking Spots
 					</h1>
+					<EventsButton/>
 					<button
 						onClick={handleLogout}
 						className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
 					>
 						Log Out
 					</button>
+					
 				</div>
 				<p className="mt-4 text-gray-600">Welcome, {user?.email}</p>
 				{/* Add owner-specific features here */}
