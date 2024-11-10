@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Copy.marker-label {
+	color: white;
+	background-color: #1a1a1a;
+	padding: 4px 8px;
+	border-radius: 16px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.marker-label.selected {
+	background-color: #2563eb;
+}
