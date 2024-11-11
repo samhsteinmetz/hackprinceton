@@ -19,6 +19,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "09:00",
 			end: "17:00",
+			days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			validFrom: "2024-12-10",
+			validUntil: "2024-12-31",
 		},
 	},
 	{
@@ -41,6 +44,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "08:00",
 			end: "20:00",
+			days: ["Monday", "Wednesday", "Friday"],
+			validFrom: "2024-11-01",
+			validUntil: "2024-11-30",
 		},
 	},
 	{
@@ -63,6 +69,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "07:00",
 			end: "19:00",
+			days: ["Saturday", "Sunday"],
+			validFrom: "2024-11-01",
+			validUntil: "2024-11-30",
 		},
 	},
 	{
@@ -85,6 +94,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "10:00",
 			end: "22:00",
+			days: ["Everyday"],
+			validFrom: "2024-12-01",
+			validUntil: "2024-12-31",
 		},
 	},
 	{
@@ -107,6 +119,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "08:30",
 			end: "18:30",
+			days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			validFrom: "2024-11-15",
+			validUntil: "2024-11-19",
 		},
 	},
 	{
@@ -129,6 +144,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "09:30",
 			end: "21:00",
+			days: ["Tuesday", "Thursday"],
+			validFrom: "2024-11-01",
+			validUntil: "2024-12-31",
 		},
 	},
 	{
@@ -151,6 +169,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "11:00",
 			end: "23:00",
+			days: ["Friday", "Saturday"],
+			validFrom: "2024-11-01",
+			validUntil: "2024-12-31",
 		},
 	},
 	{
@@ -173,6 +194,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "07:30",
 			end: "20:30",
+			days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			validFrom: "2024-12-01",
+			validUntil: "2024-12-31",
 		},
 	},
 	{
@@ -195,6 +219,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "15:00",
 			end: "23:00",
+			days: ["Saturday", "Sunday"],
+			validFrom: "2024-12-11",
+			validUntil: "2024-12-31",
 		},
 	},
 	{
@@ -217,10 +244,11 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "14:00",
 			end: "23:00",
+			days: ["Everyday"],
+			validFrom: "2024-12-10",
+			validUntil: "2024-12-31",
 		},
 	},
-
-	// Madison Square Garden Area (NYC)
 	{
 		id: "11",
 		location: {
@@ -241,6 +269,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "08:00",
 			end: "23:00",
+			days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			validFrom: "2024-12-01",
+			validUntil: "2024-12-11",
 		},
 	},
 	{
@@ -263,10 +294,11 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "06:00",
 			end: "22:00",
+			days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+			validFrom: "2024-12-01",
+			validUntil: "2024-12-31",
 		},
 	},
-
-	// Staples Center/Crypto.com Arena (LA)
 	{
 		id: "13",
 		location: {
@@ -287,6 +319,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "16:00",
 			end: "23:00",
+			days: ["Event Days"],
+			validFrom: "2024-12-01",
+			validUntil: "2024-12-30",
 		},
 	},
 	{
@@ -309,6 +344,9 @@ export const MOCK_SPOTS = [
 		availability: {
 			start: "17:00",
 			end: "23:00",
+			days: ["Friday", "Saturday", "Sunday"],
+			validFrom: "2024-11-15",
+			validUntil: "2024-11-25",
 		},
 	},
 ];
